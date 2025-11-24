@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: rgba(244, 165, 178, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    background: pink;
+    border: 1px solid #999;
+    padding: .5rem;
+    text-decoration: none;
+    border-radius: .5rem;
+    color: #000;
+}
+
+
+h1{
+    color: #000;
+    text-align: center;
+    margin: 1rem;
+}
+
+.user {
+    background: #fff;
+    width: 50%;
+    padding: 30px;
+    height: 60vh;
+    border-radius: 2rem;
+}
+
+.container {
+    color: white;
+    display: flex;
+    flex: 1;
+    background: rgba(128, 128, 128, 0.485);
+    width: 100%;
+    border-radius: 2rem;
+}
+
+.container .Ps {
+    background-color:pink;
+    color: white;
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2rem;
+}
+.container p:not(.Ps) {
+    color: white;
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn-container .btn1 {
+    background: teal;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.form-name {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="text"]{
+    padding: 10px;
+    background-color:#fff;
+    border: 1px solid #999;
+    width: 90%;
+    margin-bottom: 10px;
+    border-radius: .5rem;
+}
+.btn-foot {
+    width: 100%;
+    padding: 12px;
+    background-color: pink;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 2rem;
+}
+.email{
+    width: 100%;
+    display: flex;
+}
+.Password{
+    width: 100%;
+    display: flex;
+
+}
+.email input{
+    flex: 1;
+}
+.Password input{
+    flex: 1;
+}
+
+@media (max-width:896px){
+    .user{
+        width: 80%;
+        height: 60vh;
+        font-size: 20px;
+    }
+    
+    h1{
+        font-size: 24px;
+    }
+
+}
